@@ -28,7 +28,7 @@
 		<finalName>gamutkart</finalName>
 	</build>
 	
-	<distributionManagement>
+<distributionManagement>
   <repository>
     <id>releases</id>
     <url>http://192.168.31.200:8081/nexus/content/repositories/releases</url>
@@ -38,12 +38,7 @@
     <id>snapshots</id>
     <url>http://192.168.31.200:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
-
-  <repository>
-    <id>anil</id>
-    <url>http://192.168.31.200:8081/nexus/content/repositories/anil</url>
-  </repository>
-	</distributionManagement>
+</distributionManagement>
 	
 </project>
 
