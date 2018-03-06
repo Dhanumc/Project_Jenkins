@@ -35,14 +35,14 @@
   </repository>
 </distributionManagement>
 
-<distributionManagement>
+	<distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
     <url>http://192.168.31.200:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
-<distributionManagement>
+	<distributionManagement>
   <repository>
     <id>anil</id>
     <url>http://192.168.31.200:8081/nexus/content/repositories/anil</url>
