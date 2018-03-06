@@ -8,7 +8,5 @@ RUN apt-get install -y openssh-server
 RUN apt-get install -y sudo
 RUN apt-get install -y net-tools
 COPY ${WORKSPACE}/target/gamutkart.war /usr/local/tomcat/webapps
-EXPOSE 80
-ENTRYPOINT service ssh restart && bash
 ENTRYPOINT /usr/local/tomcat/bin/startup.sh
 
